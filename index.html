@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            background-image: url("image/One piece/sea.gif.png");
+            background-size: cover;
+        }
+        
+        .ques {
+            text-shadow: 4px 4px 6px black;
+            font-family: 'Bebas Neue', sans-serif;
+            color: white;
+        }
+        
+        .ans {
+            color: currentColor;
+            text-shadow: 4px 4px 6px black;
+        }
+        
+        .container_1 {
+            display: flex;
+            gap: 150px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 80px;
+        }
+        
+        .luffy:hover,
+        .sanji:hover,
+        .zoro:hover,
+        .franky:hover,
+        .chopper:hover,
+        .nami:hover,
+        .robin:hover,
+        .ussop:hover,
+        .brook:hover {
+            transition: all 1s ease;
+            transform: scale(1.2);
+        }
+        
+        .role {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            color: aliceblue;
+            font-size: 10px;
+        }
+        
+        .card_0:hover img {
+            filter: blur(5px);
+        }
+        
+        img {
+            height: 170px;
+            width: 200px;
+        }
+        
+        .cont_1 {
+            border-radius: 100px;
+            box-shadow: 20px 7px 10px rgba(0, 0, 0, 0.497);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: larger;
+            text-align: center;
+            background-image: linear-gradient(180deg, black, white);
+            object-fit: cover;
+            height: 250px;
+            width: 200px;
+            position: relative;
+        }
+        
+        .details {
+            margin-top: 49px;
+            line-height: 80%;
+            color: aliceblue;
+        }
+        
+        .container_2 {
+            display: flex;
+            gap: 150px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 80px;
+        }
+        
+        .cont_2 {
+            border-radius: 100px;
+            box-shadow: 20px 7px 10px rgba(0, 0, 0, 0.497);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: larger;
+            text-align: center;
+            background-image: linear-gradient(180deg, white, black);
+            height: 250px;
+            width: 200px;
+        }
+        
+        .character:hover section {
+            display: block;
+        }
+        
+        .container_3 {
+            display: flex;
+            gap: 100px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top: 90px;
+            justify-content: center;
+        }
+        
+        .merry {
+            margin-left: 600px;
+            height: 100px;
+            width: 100px;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        h1 {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #00f1ff, 0 0 82px #00c2ff, 0 0 92px #0cbcff;
+            mix-blend-mode: luminosity;
+            color: dimgray;
+            font-size: 30px;
+            font-size: 80px;
+            text-align: center;
+            animation: fadeIn 7s ease-in-out;
+        }
+        
+        section {
+            text-shadow: 20px 7px 5px rgba(0, 0, 0, 0.497);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+            display: none;
+            justify-content: center;
+            position: absolute;
+            z-index: 2;
+            padding-left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container_3">
+
+        <div>
+            <h1>
+                <!--<img src="image/One piece/One.png" class="logo" alt="">-->ONE </h1>
+        </div>
+
+        <div class=" cont_3 cont_2 brook character" style="background-image: linear-gradient(180deg,red, black); color: red;  ">
+            <div class="card_0">
+                <section>
+                    <p class="details">
+                        <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                            <span class="ans">19,20,0000</span> </p>
+                        <p><span class="ques"> ABILITY:</span> <span class="ans">RUBBER MAN</span> </p>
+                        <p><span class="ques">DESIRE:</span> <span class="ans"> KING OF PIRATES</span> </p>
+                    </p>
+                </section>
+
+                <div class="card"> <img src="image/One piece/Luffy.png" alt=""> LUFFY <br><span class="role">CAPTAIN</span> </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <h1>PIECE</h1>
+        </div>
+
+    </div>
+
+
+
+    <div class="container">
+
+        <div class="container_1">
+            <div class="cont_1 luffy character" style="background-image: linear-gradient(180deg,rgb(255, 255, 255), black);color: rgb(255, 254, 255);">
+                <div class="card_0">
+                    <section>
+                        <p class="details">
+                            <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                                <span class="ans" style="color:rgba(174, 247, 255, 0.801);">14,000,000</span> </p>
+                            <p><span class="ques"> ABILITY:</span> <span class="ans" style="color:rgba(174, 247, 255, 0.801);">REVIVE FRUITE</span> </p>
+                            <p><span class="ques">DESIRE:</span> <span class="ans" style="color:rgba(174, 247, 255, 0.801);">PROMISE TO LABOON</span> </p>
+                        </p>
+                    </section>
+                    <div class="card"> <img src="image/One piece/Brook.png" alt="luffy"><span style="color:rgba(174, 247, 255, 0.801);">BROOK</span> <br><span class="role">MUSICIAN</span></div>
+                </div>
+            </div>
+
+            <div class="cont_1 sanji  character" style="background-image: linear-gradient(180deg,yellow, black);color: yellow;">
+                <div class="card_0">
+                    <section style="padding-left:15px;">
+                        <p class="details">
+                            <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                                <span class="ans">1,032,000,000</span> </p>
+                            <p><span class="ques"> ABILITY:</span> <span class="ans">BLACK FOOT</span> </p>
+                            <p><span class="ques">DESIRE:</span> <span class="ans"></span>DISCOVER ALL BLUE </p>
+                        </p>
+                    </section>
+
+                    <div class="card"><img src="image/One piece/Sanji.png" alt="sanji">SANJI <br><span class="role">COOK</span> </div>
+                </div>
+            </div>
+
+            <div class="cont_1 zoro character" style="background-image: linear-gradient(180deg,rgb(0, 255, 26), black);color: rgb(0, 255, 0);">
+                <div class="card_0">
+                    <section>
+                        <p class="details">
+                            <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                                <span class="ans"> 320,000,000 </span> </p>
+                            <p><span class="ques"> ABILITY:</span> <span class="ans">3 STYLE SWORD</span> </p>
+                            <p><span class="ques">DESIRE:</span> <span class="ans">GRATEST SM</span> </p>
+                        </p>
+                    </section>
+
+                    <div class="card"><img src="image/One piece/Zoro.png" alt="">ZORO <br><span class="role">SWORDMEN</span> </div>
+                </div>
+            </div>
+
+            <div class="cont_1 franky character" style="background-image: linear-gradient(180deg,rgb(0, 234, 255), black);color: aqua;">
+                <div class="card_0">
+                    <section>
+                        <p class="details">
+                            <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                                <span class="ans">44,000,000 </span> </p>
+                            <p><span class="ques"> ABILITY:</span> <span class="ans">CYBORG</span> </p>
+                            <p><span class="ques">DESIRE:</span> <span class="ans"> CREATE WAR SHIP</span> </p>
+                        </p>
+                    </section>
+
+                    <div class="card"> <img src="image/One piece/Franky.png" alt="">FRANKY <br><span class="role">SHIPWRIGHT</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container_2">
+            <div class="cont_2 chopper character" style="background-image: linear-gradient(180deg,rgb(248, 1, 145), black);color: rgb(255, 0, 230);">
+                <div class="card_0">
+                    <section>
+                        <p class="details">
+                            <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                                <span class="ans">30,0000</span> </p>
+                            <p><span class="ques"> ABILITY:</span> <span class="ans">THREE FORMS</span> </p>
+                            <p><span class="ques">DESIRE:</span> <span class="ans">CURE ANY DISEASE</span> </p>
+                        </p>
+                    </section>
+
+                    <div class="card"> <img src="image/One piece/Chopper.png" alt="">CHOPPER <br><span class="role">DOCTOR</span> </div>
+                </div>
+            </div>
+
+            <div class="cont_2 nami character" style="background-image: linear-gradient(180deg,rgb(255, 145, 0), black);color: rgb(255, 111, 0);">
+                <div class="card_0">
+                    <section>
+                        <p class="details">
+                            <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                                <span class="ans">230,000,000</span> </p>
+                            <p><span class="ques"> ABILITY:</span> <span class="ans">WING USER</span> </p>
+                            <p><span class="ques">DESIRE:</span> <span class="ans"> DRAW WORLD MAP</span> </p>
+                        </p>
+                    </section>
+
+                    <div class="card"> <img src="image/One piece/Nami.png" alt="">NAMI <br><span class="role">NAVIGATOR</span> </div>
+                </div>
+            </div>
+
+            <div class="cont_2 robin character" style="background-image: linear-gradient(180deg,purple, black);color: rgb(191, 0, 255);">
+                <div class="card_0">
+                    <section>
+                        <p class="details">
+                            <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                                <span class="ans">1,00,000,000</span> </p>
+                            <p><span class="ques"> ABILITY:</span> <span class="ans"> BODY PART</span> </p>
+                            <p><span class="ques">DESIRE:</span> <span class="ans">FIND POLYGLEN</span> </p>
+                        </p>
+                    </section>
+
+                    <div class="card"> <img src="image/One piece/Robin.png" alt="">ROBIN <br><span class="role">ARCHEOLIGIST</span></div>
+                </div>
+            </div>
+
+            <div class="cont_2 ussop character" style="background-image: linear-gradient(180deg,rgb(142, 23, 23), black);color: rgb(217, 40, 40);">
+                <div class="card_0">
+                    <section>
+                        <p class="details">
+                            <p> <span class="ques"> BOUNTY ON HIS HEAD </span> <br>
+                                <span class="ans">1,000,000</span> </p>
+                            <p><span class="ques"> ABILITY:</span> <span class="ans">SNIPPERER</span> </p>
+                            <p><span class="ques">DESIRE:</span> <span class="ans">BRAVE WARRIOR</span> </p>
+                        </p>
+                    </section>
+
+                    <div class="card"> <img src="image/One piece/Ussop.png" alt="">USSOP <br><span class="role">SNIPPERER</span></div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    </div>
+
+    <div class="merry">
+
+        <img class="ship" src="image/One piece/Merry2.png" alt="">
+
+    </div>
+
+
+</body>
+
+</html>
